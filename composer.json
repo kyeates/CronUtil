@@ -1,6 +1,6 @@
 {
     "name": "kyeates/cronutil",
-    "description": "Find all times when a cron expression should fire",
+    "description": "Find all times when a cron expression should fire.",
     "license": "MIT",
     "authors": [
         {
