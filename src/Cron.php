@@ -40,7 +40,11 @@ class Cron
 
     private $errors = array();
 
-    function getErrors() { return $this->errors; }
+    public function getErrors() { return $this->errors; }
+    public function isValid() {
+        $errors = $this->getErrors();
+        return empty($errors);
+    }
 
     public function getMinutes() { return $this->minutes; }
     public function getHours() { return $this->hours; }
